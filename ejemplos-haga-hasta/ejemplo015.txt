@@ -1,0 +1,22 @@
+// Generar un programa que presente en pantalla
+// el valor de la variable suma.
+
+
+1. Inicio
+2. numero, i[0, n]
+3. suma, i[0, n]
+4. promedio, d[0, n]
+5. contador, i[0, n]
+6. numero <-- 1
+7. suma <-- 0
+8. promedio <-- 0
+9. contador <-- 0
+10. Haga_Hasta
+11.     suma <-- suma + numero
+12.    contador <-- contador + 1
+13.     numero <-- numero +1
+14. Fin Haga_Hasta (numero <= 3)
+15. promedio <-- suma / contador
+16. Escribir suma
+17. Escribir promedio
+18. Fin
