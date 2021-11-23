@@ -1,0 +1,28 @@
+
+// Generar un programa que presente en pantalla
+// el valor de la variable suma.
+
+
+1. Inicio
+2. valor_entrada, i[0, n]
+3. suma, i[0, n]
+4. salida, x(10)[{a-z}]
+5. suma <-- 0
+6. salida <-- "no"
+7. Mientras (salida!="si") entonces // "no" != "si" | verdadero // "si" != "si" |f
+8.     Escribir "Ingrese un número por teclado"
+9.     Leer valor_entrada // 4 // 7
+10.    suma <-- suma + valor_entrada // 0+4=4 // 4+7=11
+11.    Escribir "Escriba si para salir del proceso"
+12.    Leer salida  // "no" // "si"
+13. Fin mientras
+14. Escribir suma
+15. Fin
+
+// teclado
+no
+4
+si
+no
+// pantalla
+11

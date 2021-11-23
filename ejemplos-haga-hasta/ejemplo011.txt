@@ -24,9 +24,11 @@
 4. numero <-- 1
 5. suma <-- 0
 6. Mientras numero <=3 entonces
-7.     Escribir numero
-9.     suma <-- suma + numero
-8.     numero <-- numero +1
+7.     Escribir numero //1 // 2 // 3
+9.     suma <-- suma + numero // 0+1=1 // 1+2=3 // 3+3=6
+8.     numero <-- numero +1 // 1+1=2 // 2+1=3 // 3+1=4
 10. Fin Mientras
-11. Escribir suma
+11. Escribir suma // 6
 12. Fin
+
+ // 

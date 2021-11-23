@@ -9,10 +9,18 @@
 5. suma <-- 0
 6. Haga_Hasta
 7.     Escribir "Ingrese un número por teclado"
-8.     Leer valor_entrada
-9.     suma <-- suma + valor_entrada
+8.     Leer valor_entrada // 4 // 7
+9.     suma <-- suma + valor_entrada // 0+4=4 // 4+7=11
 10.    Escribir "Escriba si para salir del proceso"
-11.    Leer salida
-12. Fin Haga_Hasta (salida!="si") 
+11.    Leer salida  // "no" // "si"
+12. Fin Haga_Hasta (salida!="si") // "no" != "si" | verdadero // "si" != "si" |f
 13. Escribir suma
 14. Fin
+
+// teclado
+4
+no
+7
+si
+// pantalla
+11
